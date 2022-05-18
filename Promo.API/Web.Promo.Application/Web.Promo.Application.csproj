@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Web.Promo.Data\Web.Promo.Data.csproj" />
+    <ProjectReference Include="..\Web.Promo.Domain\Web.Promo.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
